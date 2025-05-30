@@ -1,0 +1,1420 @@
+{
+  "intents": [
+                    {
+                      "tag": "greeting",
+                      "patterns": [
+                        "Xin chào",
+                        "Chào",
+                        "Chào buổi sáng",
+                        "Chào buổi tối",
+                        "Chào buổi chiều",
+                        "Xin chào",
+                        "Chào bạn",
+                        "Xin chào bạn",
+                        "Chào ngày mới"
+                      ],
+                      "responses": [
+                        "Xin chào! Cảm ơn bạn đã ghé thăm! Tôi là Doc, trợ lý y tế ảo của bạn! Tôi có thể giúp gì cho bạn hôm nay?",
+                        "Chào bạn! Tôi là Doc và tôi ở đây để giúp! Tôi có thể làm gì cho bạn?",
+                        "Chào bạn! Tôi tên là Doc và tôi sẽ là trợ lý y tế ảo của bạn hôm nay. Tôi có thể giúp gì cho bạn?",
+                        "Xin chào bạn! Tôi tên là Doc và tôi sẽ là trợ lý y tế ảo của bạn hôm nay. Tôi có thể giúp gì cho bạn hôm nay?",
+                        "Xin chào bạn! Tôi là Doc và tôi ở đây để giúp! Tôi có thể làm gì cho bạn?",
+                        "Xin chào bạn! Tôi tên là Doc và tôi sẽ hỗ trợ bạn hôm nay. Tôi có thể giúp gì cho bạn?",
+                        "Chào bạn! Cảm ơn bạn đã ghé thăm! Tôi là Doc, trợ lý y tế ảo của bạn! Tôi có thể giúp gì cho bạn hôm nay?"
+                      ]
+                    },
+                    {
+                      "tag": "goodbye",
+                      "patterns": [
+                        "Tạm biệt",
+                        "Hẹn gặp lại",
+                        "Chúc ngủ ngon"
+                      ],
+                      "responses": [
+                        "Hẹn gặp lại, cảm ơn bạn đã ghé thăm!",
+                        "Chúc bạn một ngày tốt lành!",
+                        "Tạm biệt! Hãy quay lại sớm!"
+                      ]
+                    },
+                    {
+                      "tag": "thanks",
+                      "patterns": [
+                        "Cảm ơn",
+                        "Cảm ơn bạn",
+                        "Rất hữu ích",
+                        "Cảm ơn nhiều!",
+                        "Cảm ơn",
+                        "Không, cảm ơn",
+                        "Không, cảm ơn, thế là đủ rồi",
+                        "Cảm ơn, thế là đủ rồi"
+                      ],
+                      "responses": [
+                        "Rất vui được giúp!",
+                        "Bất cứ lúc nào!",
+                        "Rất hân hạnh",
+                        "Rất vui được phục vụ!",
+                        "Đừng bận tâm! Đó là công việc của tôi!",
+                        "Rất vui được giúp!",
+                        "Giúp bạn luôn là niềm vui của tôi!",
+                        "Nếu bạn cần gì thêm, cứ cho tôi biết!",
+                        "Bạn được chào đón nồng nhiệt!"
+                      ]
+                    },
+                    {
+                      "tag": "State",
+                      "patterns": [
+                        "Bạn khỏe không?",
+                        "Dạo này bạn thế nào?",
+                        "Bạn ổn chứ?",
+                        "Bạn có khỏe không?",
+                        "Bạn cảm thấy thế nào?"
+                      ],
+                      "responses": [
+                        "Tôi khỏe lắm! Tôi có thể giúp gì cho bạn?",
+                        "Tôi ổn! Cảm ơn đã hỏi! Bây giờ hãy nói tôi có thể giúp gì cho bạn?",
+                        "Tôi ổn thôi! Tôi có thể giúp gì cho bạn?",
+                        "Tôi khỏe lắm! Tôi có thể phục vụ bạn thế nào?",
+                        "Tôi ổn! Cảm ơn đã hỏi! Bây giờ tôi có thể phục vụ bạn thế nào?",
+                        "Tôi ổn thôi! Tôi có thể phục vụ bạn thế nào?"
+                      ]
+                    },
+                    {
+                      "tag": "Help",
+                      "patterns": [
+                        "Bạn có thể giúp tôi không?",
+                        "Tôi cần bạn giúp",
+                        "Tôi cần sự hỗ trợ của bạn",
+                        "Tôi cần giúp đỡ",
+                        "Tôi cần hỗ trợ"
+                      ],
+                      "responses": [
+                        "Chắc chắn rồi! Tôi có thể giúp bạn! Chỉ cần hỏi tôi về một căn bệnh bạn muốn tìm hiểu thêm!",
+                        "Đó là lý do tôi ở đây! Tôi có thể giúp gì cho bạn?",
+                        "Chắc chắn rồi! Chỉ cần hỏi tôi về một căn bệnh!",
+                        "Đó là lý do tôi ở đây! Chỉ cần hỏi tôi về một căn bệnh!"
+                      ]
+                    },
+                    {
+                      "tag": "corona",
+                      "patterns": [
+                        "Corona là gì?",
+                        "Covid là gì?",
+                        "Covid19 là gì?",
+                        "Covid-19 là gì?",
+                        "Cho tôi thông tin về covid19",
+                        "Cho tôi thông tin về covid",
+                        "Cho tôi thông tin về corona",
+                        "Nói cho tôi về covid",
+                        "Nói cho tôi về corona",
+                        "Nói cho tôi về covid-19",
+                        "Tôi muốn biết thêm về covid",
+                        "Tôi muốn biết thêm về corona",
+                        "Tôi muốn biết thêm về covid-19",
+                        "Tôi muốn tìm hiểu thêm về covid",
+                        "Tôi muốn tìm hiểu thêm về covid-19",
+                        "Tôi muốn tìm hiểu thêm về corona"
+                      ],
+                      "responses": [
+                        "Corona là một nhóm virus gây ra các bệnh nghiêm trọng hơn như viêm phổi và cảm lạnh thông thường. Các triệu chứng bao gồm: sốt, ho khan, mệt mỏi, đau họng, mất vị giác hoặc khứu giác, và có thể điều trị bằng vắc-xin. Tôi có thể giúp gì thêm cho bạn?",
+                        "Corona là một họ virus gây ra các bệnh nghiêm trọng như viêm phổi và cảm lạnh thông thường. Các đặc điểm bao gồm: sốt, ho khan, mệt mỏi, đau họng, mất vị giác hoặc khứu giác. Remdesivir có thể được sử dụng để điều trị corona. Tôi có thể giúp gì thêm cho bạn?"
+                      ]
+                    },
+                    {
+                      "tag": "cam_cum",
+                      "patterns": [
+                        "Cảm cúm là gì?",
+                        "Bệnh cúm là gì?",
+                        "Triệu chứng cảm cúm",
+                        "Cách điều trị cảm cúm",
+                        "Phòng ngừa cảm cúm"
+                      ],
+                      "responses": [
+                        "Cảm cúm (Influenza) là bệnh truyền nhiễm do virus cúm gây ra. Triệu chứng gồm sốt, ho, đau họng, mệt mỏi. Điều trị bằng cách nghỉ ngơi, uống nhiều nước và dùng thuốc giảm triệu chứng. Tiêm vắc-xin cúm hàng năm giúp phòng ngừa bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "viem_hong",
+                      "patterns": [
+                        "Viêm họng là gì?",
+                        "Nguyên nhân viêm họng",
+                        "Triệu chứng viêm họng",
+                        "Cách chữa viêm họng",
+                        "Phòng ngừa viêm họng"
+                      ],
+                      "responses": [
+                        "Viêm họng là tình trạng viêm nhiễm niêm mạc họng, thường do virus hoặc vi khuẩn. Triệu chứng gồm đau họng, sốt, ho, nuốt khó. Điều trị bằng thuốc giảm đau, thuốc kháng sinh nếu do vi khuẩn, và súc miệng nước muối."
+                      ]
+                    },
+                    {
+                      "tag": "viem_amidan",
+                      "patterns": [
+                        "Viêm amidan là gì?",
+                        "Triệu chứng viêm amidan",
+                        "Viêm amidan do đâu?",
+                        "Điều trị viêm amidan",
+                        "Cách ngừa viêm amidan"
+                      ],
+                      "responses": [
+                        "Viêm amidan là tình trạng sưng và viêm hai khối amidan ở họng. Có thể do nhiễm virus hoặc vi khuẩn. Triệu chứng: đau họng, sốt, sưng amidan, hơi thở hôi. Điều trị bằng thuốc hoặc cắt amidan nếu tái phát nhiều."
+                      ]
+                    },
+                    {
+                      "tag": "viem_mui_di_ung",
+                      "patterns": [
+                        "Viêm mũi dị ứng là gì?",
+                        "Nguyên nhân viêm mũi dị ứng",
+                        "Triệu chứng viêm mũi dị ứng",
+                        "Điều trị viêm mũi dị ứng",
+                        "Phòng viêm mũi dị ứng"
+                      ],
+                      "responses": [
+                        "Viêm mũi dị ứng là phản ứng của niêm mạc mũi với các tác nhân dị ứng như bụi, phấn hoa. Triệu chứng gồm hắt hơi, nghẹt mũi, chảy nước mũi, ngứa mũi. Điều trị bằng thuốc kháng histamin, thuốc xịt mũi, tránh dị nguyên."
+                      ]
+                    },
+                    {
+                      "tag": "viem_phoi",
+                      "patterns": [
+                        "Viêm phổi là gì?",
+                        "Triệu chứng viêm phổi",
+                        "Nguyên nhân gây viêm phổi",
+                        "Điều trị viêm phổi",
+                        "Phòng ngừa viêm phổi"
+                      ],
+                      "responses": [
+                        "Viêm phổi là nhiễm trùng phổi do virus, vi khuẩn hoặc nấm. Triệu chứng gồm sốt, ho đờm, khó thở, mệt mỏi. Điều trị bằng thuốc kháng sinh hoặc thuốc kháng virus. Tiêm vắc-xin phòng phế cầu và cúm để phòng bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "lao_phoi",
+                      "patterns": [
+                        "Lao phổi là gì?",
+                        "Triệu chứng lao phổi",
+                        "Nguyên nhân lao phổi",
+                        "Chẩn đoán và điều trị lao phổi",
+                        "Cách phòng chống lao phổi"
+                      ],
+                      "responses": [
+                        "Lao phổi là bệnh nhiễm khuẩn mạn tính do vi khuẩn lao (Mycobacterium tuberculosis) gây ra. Triệu chứng: ho kéo dài, ho ra máu, sốt, sút cân. Điều trị bằng thuốc kháng lao theo phác đồ. Cần tiêm vắc-xin BCG để phòng bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "hen_suyen",
+                      "patterns": [
+                        "Hen suyễn là gì?",
+                        "Triệu chứng hen suyễn",
+                        "Nguyên nhân gây hen suyễn",
+                        "Điều trị hen suyễn",
+                        "Phòng tránh hen suyễn"
+                      ],
+                      "responses": [
+                        "Hen suyễn là bệnh mãn tính gây viêm và co thắt đường thở. Triệu chứng: khó thở, thở khò khè, ho nhiều về đêm. Điều trị bằng thuốc giãn phế quản và corticoid dạng hít. Tránh dị nguyên và ô nhiễm không khí để phòng bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "viem_xoang",
+                      "patterns": [
+                        "Viêm xoang là gì?",
+                        "Triệu chứng viêm xoang",
+                        "Nguyên nhân viêm xoang",
+                        "Cách điều trị viêm xoang",
+                        "Phòng viêm xoang"
+                      ],
+                      "responses": [
+                        "Viêm xoang là tình trạng viêm các xoang cạnh mũi do vi khuẩn, virus hoặc dị ứng. Triệu chứng: nghẹt mũi, đau đầu, chảy dịch mũi. Điều trị bằng thuốc kháng sinh, thuốc giảm viêm, và phẫu thuật nếu cần."
+                      ]
+                    },
+                    {
+                      "tag": "tieu_duong_type_2",
+                      "patterns": [
+                        "Tiểu đường type 2 là gì?",
+                        "Triệu chứng tiểu đường type 2",
+                        "Nguyên nhân tiểu đường",
+                        "Điều trị tiểu đường type 2",
+                        "Phòng ngừa tiểu đường"
+                      ],
+                      "responses": [
+                        "Tiểu đường type 2 là bệnh rối loạn chuyển hóa đường huyết do kháng insulin. Triệu chứng: khát nước, tiểu nhiều, mệt mỏi, giảm cân. Điều trị bằng thay đổi lối sống, thuốc uống hoặc tiêm insulin."
+                      ]
+                    },
+                    {
+                      "tag": "tang_huyet_ap",
+                      "patterns": [
+                        "Tăng huyết áp là gì?",
+                        "Nguyên nhân cao huyết áp",
+                        "Triệu chứng tăng huyết áp",
+                        "Điều trị tăng huyết áp",
+                        "Phòng ngừa tăng huyết áp"
+                      ],
+                      "responses": [
+                        "Tăng huyết áp (cao huyết áp) là tình trạng huyết áp cao mãn tính. Triệu chứng có thể không rõ ràng, nhưng có thể gây đau đầu, chóng mặt. Điều trị bằng thuốc hạ áp và thay đổi lối sống. Phòng ngừa bằng cách ăn nhạt, tập thể dục, kiểm soát cân nặng."
+                      ]
+                    },
+                    {
+                      "tag": "benh_tim_mach",
+                      "patterns": [
+                        "Bệnh tim mạch là gì?",
+                        "Nhồi máu cơ tim là gì?",
+                        "Suy tim có triệu chứng gì?",
+                        "Cách điều trị bệnh tim mạch",
+                        "Phòng ngừa bệnh tim mạch"
+                      ],
+                      "responses": [
+                        "Bệnh tim mạch bao gồm các bệnh như nhồi máu cơ tim, suy tim, xơ vữa động mạch. Triệu chứng: đau ngực, khó thở, mệt mỏi. Điều trị bằng thuốc, can thiệp mạch vành hoặc phẫu thuật. Phòng ngừa bằng cách ăn uống lành mạnh, không hút thuốc, kiểm soát huyết áp và cholesterol."
+                      ]
+                    },
+                    {
+                      "tag": "dot_quy",
+                      "patterns": [
+                        "Đột quỵ là gì?",
+                        "Tai biến mạch máu não có nguy hiểm không?",
+                        "Dấu hiệu đột quỵ",
+                        "Cách sơ cứu người bị đột quỵ",
+                        "Phòng ngừa đột quỵ"
+                      ],
+                      "responses": [
+                        "Đột quỵ (tai biến mạch máu não) là tình trạng gián đoạn dòng máu lên não. Triệu chứng: méo miệng, liệt tay chân, nói khó. Điều trị khẩn cấp bằng thuốc tiêu huyết khối hoặc can thiệp mạch. Phòng tránh bằng cách kiểm soát huyết áp, tiểu đường, cholesterol."
+                      ]
+                    },
+                    {
+                      "tag": "viem_gan_b",
+                      "patterns": [
+                        "Viêm gan B là gì?",
+                        "Triệu chứng viêm gan B",
+                        "Viêm gan B lây qua đường nào?",
+                        "Cách điều trị viêm gan B",
+                        "Phòng tránh viêm gan B"
+                      ],
+                      "responses": [
+                        "Viêm gan B là bệnh do virus HBV gây viêm gan. Lây qua máu, tình dục và từ mẹ sang con. Triệu chứng: mệt mỏi, vàng da, đau hạ sườn. Điều trị bằng thuốc kháng virus. Tiêm vắc-xin là cách phòng bệnh hiệu quả nhất."
+                      ]
+                    },
+                    {
+                      "tag": "viem_gan_c",
+                      "patterns": [
+                        "Viêm gan C là gì?",
+                        "Triệu chứng viêm gan C",
+                        "Viêm gan C lây như thế nào?",
+                        "Cách chữa viêm gan C",
+                        "Phòng bệnh viêm gan C"
+                      ],
+                      "responses": [
+                        "Viêm gan C là bệnh do virus HCV gây ra, lây chủ yếu qua đường máu. Triệu chứng: mệt mỏi, đau bụng, vàng da. Có thuốc đặc trị viêm gan C giúp khỏi bệnh hoàn toàn. Chưa có vắc-xin nên cần phòng tránh bằng cách không dùng chung kim tiêm, quan hệ an toàn."
+                      ]
+                    },
+                    {
+                      "tag": "xo_gan",
+                      "patterns": [
+                        "Xơ gan là gì?",
+                        "Triệu chứng xơ gan",
+                        "Nguyên nhân gây xơ gan",
+                        "Xơ gan có chữa được không?",
+                        "Phòng tránh xơ gan"
+                      ],
+                      "responses": [
+                        "Xơ gan là hậu quả của tổn thương gan mạn tính làm mô gan bị thay thế bằng mô xơ. Triệu chứng: mệt mỏi, phù chân, cổ trướng. Nguyên nhân: viêm gan virus, rượu, gan nhiễm mỡ. Không chữa khỏi hoàn toàn nhưng có thể làm chậm tiến triển bằng thuốc và chế độ sinh hoạt hợp lý."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_gan",
+                      "patterns": [
+                        "Ung thư gan là gì?",
+                        "Triệu chứng ung thư gan",
+                        "Ai dễ mắc ung thư gan?",
+                        "Điều trị ung thư gan như thế nào?",
+                        "Cách phát hiện sớm ung thư gan"
+                      ],
+                      "responses": [
+                        "Ung thư gan là loại ung thư thường gặp ở Việt Nam, đặc biệt là do viêm gan B, C. Triệu chứng: đau vùng gan, sụt cân, vàng da. Điều trị bằng phẫu thuật, hóa trị, xạ trị hoặc thuốc trúng đích. Tầm soát định kỳ giúp phát hiện sớm bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_phoi",
+                      "patterns": [
+                        "Ung thư phổi là gì?",
+                        "Nguyên nhân gây ung thư phổi",
+                        "Triệu chứng ung thư phổi",
+                        "Điều trị ung thư phổi",
+                        "Phòng tránh ung thư phổi"
+                      ],
+                      "responses": [
+                        "Ung thư phổi là ung thư thường gặp và gây tử vong cao. Chủ yếu do hút thuốc lá, tiếp xúc chất độc. Triệu chứng: ho kéo dài, ho ra máu, đau ngực. Điều trị bằng phẫu thuật, hóa trị, xạ trị. Phòng bệnh bằng cách không hút thuốc và tránh khói thuốc."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_vu",
+                      "patterns": [
+                        "Ung thư vú là gì?",
+                        "Triệu chứng ung thư vú",
+                        "Ung thư vú có chữa được không?",
+                        "Cách phát hiện ung thư vú sớm",
+                        "Phòng bệnh ung thư vú"
+                      ],
+                      "responses": [
+                        "Ung thư vú là loại ung thư phổ biến ở nữ giới. Triệu chứng: sờ thấy u ở ngực, thay đổi da hoặc núm vú. Điều trị bằng phẫu thuật, hóa trị, xạ trị. Tầm soát định kỳ bằng siêu âm, chụp nhũ ảnh giúp phát hiện sớm bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_da_day",
+                      "patterns": [
+                        "Ung thư dạ dày là gì?",
+                        "Triệu chứng ung thư dạ dày",
+                        "Nguyên nhân ung thư dạ dày",
+                        "Điều trị ung thư dạ dày",
+                        "Cách phát hiện sớm ung thư dạ dày"
+                      ],
+                      "responses": [
+                        "Ung thư dạ dày là ung thư đường tiêu hóa phổ biến. Triệu chứng: đau bụng, chán ăn, sụt cân, buồn nôn. Nguyên nhân liên quan tới vi khuẩn HP, ăn mặn, hút thuốc. Điều trị bằng phẫu thuật, hóa trị, xạ trị."
+                      ]
+                    },
+                    {
+                      "tag": "loet_da_day_ta_trang",
+                      "patterns": [
+                        "Loét dạ dày tá tràng là gì?",
+                        "Nguyên nhân gây loét dạ dày",
+                        "Triệu chứng loét dạ dày",
+                        "Cách điều trị loét dạ dày",
+                        "Phòng bệnh loét dạ dày"
+                      ],
+                      "responses": [
+                        "Loét dạ dày – tá tràng là tình trạng tổn thương lớp niêm mạc dạ dày hoặc tá tràng. Nguyên nhân: vi khuẩn HP, dùng thuốc giảm đau dài ngày, stress. Triệu chứng: đau bụng, đầy hơi, ợ chua. Điều trị bằng thuốc kháng acid, kháng sinh diệt HP, thay đổi lối sống."
+                      ]
+                    },
+                    {
+                      "tag": "viem_dai_trang",
+                      "patterns": [
+                        "Viêm đại tràng là gì?",
+                        "Triệu chứng viêm đại tràng",
+                        "Nguyên nhân viêm đại tràng",
+                        "Cách điều trị viêm đại tràng",
+                        "Phòng tránh viêm đại tràng"
+                      ],
+                      "responses": [
+                        "Viêm đại tràng là tình trạng viêm nhiễm hoặc kích ứng ở đại tràng. Triệu chứng bao gồm đau bụng, tiêu chảy, táo bón, đầy hơi. Điều trị bằng thuốc chống viêm, kháng sinh, và chế độ ăn hợp lý."
+                      ]
+                    },
+                    {
+                      "tag": "tao_bon_man_tinh",
+                      "patterns": [
+                        "Táo bón mãn tính là gì?",
+                        "Nguyên nhân táo bón mãn tính",
+                        "Triệu chứng táo bón mãn tính",
+                        "Cách chữa táo bón mãn tính",
+                        "Phòng tránh táo bón mãn tính"
+                      ],
+                      "responses": [
+                        "Táo bón mãn tính là tình trạng đi đại tiện khó khăn kéo dài trên 3 tháng. Nguyên nhân do chế độ ăn thiếu chất xơ, ít vận động, dùng thuốc hoặc bệnh lý. Điều trị bằng tăng cường chất xơ, uống đủ nước và dùng thuốc nhuận tràng khi cần."
+                      ]
+                    },
+                    {
+                      "tag": "benh_tri",
+                      "patterns": [
+                        "Bệnh trĩ là gì?",
+                        "Triệu chứng bệnh trĩ",
+                        "Nguyên nhân bệnh trĩ",
+                        "Cách điều trị bệnh trĩ",
+                        "Phòng tránh bệnh trĩ"
+                      ],
+                      "responses": [
+                        "Bệnh trĩ là tình trạng giãn tĩnh mạch vùng hậu môn trực tràng gây đau và chảy máu khi đại tiện. Nguyên nhân: táo bón, ngồi lâu, mang thai. Điều trị bằng thuốc, thay đổi thói quen ăn uống, hoặc phẫu thuật trong trường hợp nặng."
+                      ]
+                    },
+                    {
+                      "tag": "nhiem_khuan_duong_tieu",
+                      "patterns": [
+                        "Nhiễm khuẩn đường tiểu là gì?",
+                        "Triệu chứng nhiễm khuẩn đường tiểu",
+                        "Nguyên nhân nhiễm khuẩn đường tiểu",
+                        "Cách điều trị nhiễm khuẩn đường tiểu",
+                        "Phòng tránh nhiễm khuẩn đường tiểu"
+                      ],
+                      "responses": [
+                        "Nhiễm khuẩn đường tiểu là sự xâm nhập và phát triển của vi khuẩn trong đường tiết niệu. Triệu chứng: tiểu buốt, tiểu rắt, đau vùng bụng dưới. Điều trị bằng kháng sinh theo chỉ định bác sĩ."
+                      ]
+                    },
+                    {
+                      "tag": "soi_than",
+                      "patterns": [
+                        "Sỏi thận là gì?",
+                        "Triệu chứng sỏi thận",
+                        "Nguyên nhân sỏi thận",
+                        "Cách điều trị sỏi thận",
+                        "Phòng tránh sỏi thận"
+                      ],
+                      "responses": [
+                        "Sỏi thận là các tinh thể khoáng chất kết tụ trong thận gây đau và tắc nghẽn. Triệu chứng: đau lưng, tiểu ra máu, buồn nôn. Điều trị bằng thuốc, tán sỏi hoặc phẫu thuật tùy theo kích thước sỏi."
+                      ]
+                    },
+                    {
+                      "tag": "viem_bang_quang",
+                      "patterns": [
+                        "Viêm bàng quang là gì?",
+                        "Triệu chứng viêm bàng quang",
+                        "Nguyên nhân viêm bàng quang",
+                        "Cách điều trị viêm bàng quang",
+                        "Phòng tránh viêm bàng quang"
+                      ],
+                      "responses": [
+                        "Viêm bàng quang là viêm nhiễm niêm mạc bàng quang do vi khuẩn. Triệu chứng: đau bụng dưới, tiểu nhiều lần, tiểu buốt. Điều trị bằng kháng sinh và uống nhiều nước."
+                      ]
+                    },
+                    {
+                      "tag": "viem_khop_dang_thap",
+                      "patterns": [
+                        "Viêm khớp dạng thấp là gì?",
+                        "Triệu chứng viêm khớp dạng thấp",
+                        "Nguyên nhân viêm khớp dạng thấp",
+                        "Cách điều trị viêm khớp dạng thấp",
+                        "Phòng tránh viêm khớp dạng thấp"
+                      ],
+                      "responses": [
+                        "Viêm khớp dạng thấp là bệnh tự miễn gây viêm và phá hủy các khớp. Triệu chứng: sưng, đau, cứng khớp, đặc biệt vào buổi sáng. Điều trị bằng thuốc chống viêm, thuốc ức chế miễn dịch."
+                      ]
+                    },
+                    {
+                      "tag": "thoai_hoa_khop",
+                      "patterns": [
+                        "Thoái hóa khớp là gì?",
+                        "Triệu chứng thoái hóa khớp",
+                        "Nguyên nhân thoái hóa khớp",
+                        "Cách điều trị thoái hóa khớp",
+                        "Phòng tránh thoái hóa khớp"
+                      ],
+                      "responses": [
+                        "Thoái hóa khớp là tình trạng tổn thương sụn khớp do lão hóa hoặc chấn thương. Triệu chứng: đau khớp, cứng khớp, hạn chế vận động. Điều trị bằng thuốc giảm đau, tập vật lý trị liệu, và phẫu thuật nếu cần."
+                      ]
+                    },
+                    {
+                    "tag": "loang_xuong",
+                    "patterns": [
+                      "Loãng xương là gì?",
+                      "Triệu chứng loãng xương",
+                      "Nguyên nhân loãng xương",
+                      "Cách điều trị loãng xương",
+                      "Phòng tránh loãng xương"
+                    ],
+                    "responses": [
+                      "Loãng xương là tình trạng giảm mật độ xương làm tăng nguy cơ gãy xương. Triệu chứng thường không rõ ràng, phát hiện qua đo mật độ xương. Điều trị bằng bổ sung canxi, vitamin D và tập thể dục."
+                    ]
+                    },
+                    {
+                      "tag": "dau_lung_man_tinh",
+                      "patterns": [
+                        "Đau lưng mãn tính là gì?",
+                        "Nguyên nhân đau lưng mãn tính",
+                        "Triệu chứng đau lưng mãn tính",
+                        "Cách điều trị đau lưng mãn tính",
+                        "Phòng tránh đau lưng mãn tính"
+                      ],
+                      "responses": [
+                        "Đau lưng mãn tính là đau kéo dài trên 3 tháng vùng lưng dưới. Nguyên nhân do thoái hóa cột sống, chấn thương hoặc căng cơ. Điều trị bằng vật lý trị liệu, thuốc giảm đau, và thay đổi tư thế."
+                      ]
+                    },
+                    {
+                      "tag": "benh_gout",
+                      "patterns": [
+                        "Bệnh gout là gì?",
+                        "Triệu chứng bệnh gout",
+                        "Nguyên nhân bệnh gout",
+                        "Cách điều trị bệnh gout",
+                        "Phòng tránh bệnh gout"
+                      ],
+                      "responses": [
+                        "Bệnh gout là dạng viêm khớp do lắng đọng tinh thể acid uric trong khớp gây đau, sưng đỏ. Điều trị bằng thuốc giảm đau, thuốc hạ acid uric, và chế độ ăn kiêng hợp lý."
+                      ]
+                    },
+                    {
+                      "tag": "viem_da_co_dia",
+                      "patterns": [
+                        "Viêm da cơ địa là gì?",
+                        "Triệu chứng viêm da cơ địa",
+                        "Nguyên nhân viêm da cơ địa",
+                        "Cách điều trị viêm da cơ địa",
+                        "Phòng tránh viêm da cơ địa"
+                      ],
+                      "responses": [
+                        "Viêm da cơ địa là bệnh da mãn tính với biểu hiện ngứa, đỏ, nổi mẩn. Điều trị bằng thuốc bôi corticoid, giữ da ẩm và tránh tác nhân kích thích."
+                      ]
+                    },
+                    {
+                      "tag": "cham_eczema",
+                      "patterns": [
+                        "Chàm là gì?",
+                        "Triệu chứng chàm",
+                        "Nguyên nhân chàm",
+                        "Cách điều trị chàm",
+                        "Phòng tránh chàm"
+                      ],
+                      "responses": [
+                        "Chàm (Eczema) là bệnh viêm da gây ngứa, mẩn đỏ, có thể chảy dịch. Điều trị bằng thuốc bôi, tránh dị nguyên và chăm sóc da tốt."
+                      ]
+                    },
+                    {
+                      "tag": "nam_da",
+                      "patterns": [
+                        "Nấm da là gì?",
+                        "Triệu chứng nấm da",
+                        "Nguyên nhân nấm da",
+                        "Cách điều trị nấm da",
+                        "Phòng tránh nấm da"
+                      ],
+                      "responses": [
+                        "Nấm da là bệnh do vi nấm gây ra, biểu hiện bằng các mảng đỏ, ngứa, bong tróc da. Điều trị bằng thuốc chống nấm dạng bôi hoặc uống."
+                      ]
+                    },
+                    {
+                      "tag": "viem_da_tiet_ba",
+                      "patterns": [
+                        "Viêm da tiết bã là gì?",
+                        "Triệu chứng viêm da tiết bã",
+                        "Nguyên nhân viêm da tiết bã",
+                        "Cách điều trị viêm da tiết bã",
+                        "Phòng tránh viêm da tiết bã"
+                      ],
+                      "responses": [
+                        "Viêm da tiết bã là tình trạng viêm da có vảy tiết dầu, thường ở da đầu, mặt. Điều trị bằng thuốc bôi chống nấm, corticoid nhẹ và giữ vệ sinh da."
+                      ]
+                    },
+                    {
+                      "tag": "dieu_tri_di_ung_da",
+                      "patterns": [
+                        "Dị ứng da là gì?",
+                        "Triệu chứng dị ứng da",
+                        "Nguyên nhân dị ứng da",
+                        "Cách điều trị dị ứng da",
+                        "Phòng tránh dị ứng da"
+                      ],
+                      "responses": [
+                        "Dị ứng da là phản ứng viêm do tiếp xúc với dị nguyên gây ngứa, mẩn đỏ. Điều trị bằng thuốc kháng histamin, corticoid và tránh tiếp xúc với dị nguyên."
+                      ]
+                    },
+                    {
+                      "tag": "mun_trung_ca",
+                      "patterns": [
+                        "Mụn trứng cá là gì?",
+                        "Nguyên nhân mụn trứng cá",
+                        "Triệu chứng mụn trứng cá",
+                        "Cách điều trị mụn trứng cá",
+                        "Phòng tránh mụn trứng cá"
+                      ],
+                      "responses": [
+                        "Mụn trứng cá là bệnh da phổ biến do tắc nghẽn nang lông, viêm nhiễm. Điều trị bằng thuốc bôi, thuốc uống và chăm sóc da đúng cách."
+                      ]
+                    },
+                    {
+                      "tag": "tieu_duong_type_1",
+                      "patterns": [
+                        "Bệnh tiểu đường type 1 là gì?",
+                        "Triệu chứng bệnh tiểu đường type 1",
+                        "Nguyên nhân bệnh tiểu đường type 1",
+                        "Cách điều trị bệnh tiểu đường type 1",
+                        "Phòng tránh bệnh tiểu đường type 1"
+                      ],
+                      "responses": [
+                        "Tiểu đường type 1 là bệnh tự miễn phá hủy tế bào beta tuyến tụy, gây thiếu insulin. Điều trị bằng tiêm insulin và kiểm soát đường huyết."
+                      ]
+                    },
+                    {
+                      "tag": "benh_parkinson",
+                      "patterns": [
+                        "Bệnh Parkinson là gì?",
+                        "Triệu chứng bệnh Parkinson",
+                        "Nguyên nhân bệnh Parkinson",
+                        "Cách điều trị bệnh Parkinson",
+                        "Phòng tránh bệnh Parkinson"
+                      ],
+                      "responses": [
+                        "Bệnh Parkinson là rối loạn thoái hóa thần kinh gây run, cứng cơ, chậm vận động. Điều trị bằng thuốc dopamin và vật lý trị liệu."
+                      ]
+                    },
+                    {
+                      "tag": "alzheimer",
+                      "patterns": [
+                        "Bệnh Alzheimer là gì?",
+                        "Triệu chứng bệnh Alzheimer",
+                        "Nguyên nhân bệnh Alzheimer",
+                        "Cách điều trị bệnh Alzheimer",
+                        "Phòng tránh bệnh Alzheimer"
+                      ],
+                      "responses": [
+                        "Alzheimer là bệnh sa sút trí tuệ tiến triển, gây mất trí nhớ, khó khăn trong suy nghĩ và hành vi. Hiện chưa có thuốc chữa khỏi, điều trị hỗ trợ giúp cải thiện triệu chứng."
+                      ]
+                    },
+                    {
+                      "tag": "roi_loan_lo_au",
+                      "patterns": [
+                        "Rối loạn lo âu là gì?",
+                        "Triệu chứng rối loạn lo âu",
+                        "Nguyên nhân rối loạn lo âu",
+                        "Cách điều trị rối loạn lo âu",
+                        "Phòng tránh rối loạn lo âu"
+                      ],
+                      "responses": [
+                        "Rối loạn lo âu là tình trạng lo lắng quá mức ảnh hưởng đến cuộc sống hàng ngày. Điều trị bằng tâm lý trị liệu, thuốc chống lo âu và thay đổi lối sống."
+                      ]
+                    },
+                    {
+                      "tag": "tram_cam",
+                      "patterns": [
+                        "Trầm cảm là gì?",
+                        "Triệu chứng trầm cảm",
+                        "Nguyên nhân trầm cảm",
+                        "Cách điều trị trầm cảm",
+                        "Phòng tránh trầm cảm"
+                      ],
+                      "responses": [
+                        "Trầm cảm là rối loạn tâm thần với biểu hiện buồn bã kéo dài, mất hứng thú và năng lượng. Điều trị bằng thuốc chống trầm cảm, tâm lý trị liệu và hỗ trợ xã hội."
+                      ]
+                    },
+                    {
+                      "tag": "benh_tang_dong_giam_chu_y_adhd",
+                      "patterns": [
+                        "Bệnh tăng động giảm chú ý là gì?",
+                        "Triệu chứng tăng động giảm chú ý",
+                        "Nguyên nhân tăng động giảm chú ý",
+                        "Cách điều trị tăng động giảm chú ý",
+                        "Phòng tránh tăng động giảm chú ý"
+                      ],
+                      "responses": [
+                        "Bệnh tăng động giảm chú ý (ADHD) là rối loạn phát triển thần kinh biểu hiện bằng khó tập trung, hiếu động, và bốc đồng. Điều trị kết hợp thuốc và giáo dục đặc biệt."
+                      ]
+                    },
+                    {
+                      "tag": "benh_dong_kinh",
+                      "patterns": [
+                        "Bệnh động kinh là gì?",
+                        "Triệu chứng bệnh động kinh",
+                        "Nguyên nhân bệnh động kinh",
+                        "Cách điều trị bệnh động kinh",
+                        "Phòng tránh bệnh động kinh"
+                      ],
+                      "responses": [
+                        "Động kinh là rối loạn thần kinh gây ra các cơn co giật tái diễn. Điều trị bằng thuốc chống động kinh và kiểm soát các yếu tố kích thích."
+                      ]
+                    },
+                    {
+                      "tag": "benh_buou_co_suy_giap",
+                      "patterns": [
+                        "Bệnh bướu cổ là gì?",
+                        "Triệu chứng bướu cổ",
+                        "Nguyên nhân bướu cổ",
+                        "Cách điều trị bướu cổ",
+                        "Phòng tránh bướu cổ"
+                      ],
+                      "responses": [
+                        "Bướu cổ (Suy giáp) là tình trạng tuyến giáp phì đại do thiếu iod hoặc viêm tuyến giáp. Điều trị bằng bổ sung iod hoặc thuốc điều chỉnh hormone giáp."
+                      ]
+                    },
+                    {
+                      "tag": "suy_tuyen_giap",
+                      "patterns": [
+                        "Suy tuyến giáp là gì?",
+                        "Triệu chứng suy tuyến giáp",
+                        "Nguyên nhân suy tuyến giáp",
+                        "Cách điều trị suy tuyến giáp",
+                        "Phòng tránh suy tuyến giáp"
+                      ],
+                      "responses": [
+                        "Suy tuyến giáp là tình trạng tuyến giáp giảm sản xuất hormone, gây mệt mỏi, tăng cân, lạnh. Điều trị bằng hormone thay thế levothyroxine."
+                      ]
+                    },
+                    {
+                      "tag": "hoi_chung_than_hu",
+                      "patterns": [
+                        "Hội chứng thận hư là gì?",
+                        "Triệu chứng hội chứng thận hư",
+                        "Nguyên nhân hội chứng thận hư",
+                        "Cách điều trị hội chứng thận hư",
+                        "Phòng tránh hội chứng thận hư"
+                      ],
+                      "responses": [
+                        "Hội chứng thận hư là bệnh thận gây mất protein qua nước tiểu, phù toàn thân. Điều trị bằng thuốc ức chế miễn dịch, lợi tiểu và kiểm soát huyết áp."
+                      ]
+                    },
+                    {
+                      "tag": "viem_than_cap_man_tinh",
+                      "patterns": [
+                        "Viêm thận cấp là gì?",
+                        "Triệu chứng viêm thận cấp",
+                        "Nguyên nhân viêm thận cấp",
+                        "Cách điều trị viêm thận cấp",
+                        "Phòng tránh viêm thận cấp"
+                      ],
+                      "responses": [
+                        "Viêm thận cấp là tình trạng viêm cấp ở cầu thận gây suy thận nhanh. Điều trị tùy nguyên nhân, gồm thuốc và hỗ trợ chức năng thận."
+                      ]
+                    },
+                    {
+                      "tag": "benh_than_man_tinh",
+                      "patterns": [
+                        "Bệnh thận mãn tính là gì?",
+                        "Triệu chứng bệnh thận mãn tính",
+                        "Nguyên nhân bệnh thận mãn tính",
+                        "Cách điều trị bệnh thận mãn tính",
+                        "Phòng tránh bệnh thận mãn tính"
+                      ],
+                      "responses": [
+                        "Bệnh thận mãn tính là suy giảm chức năng thận kéo dài, không hồi phục. Điều trị kiểm soát nguyên nhân, theo dõi và lọc máu khi cần."
+                      ]
+                    },
+                    {
+                      "tag": "viem_tuy",
+                      "patterns": [
+                        "Viêm tụy là gì?",
+                        "Triệu chứng viêm tụy",
+                        "Nguyên nhân viêm tụy",
+                        "Cách điều trị viêm tụy",
+                        "Phòng tránh viêm tụy"
+                      ],
+                      "responses": [
+                        "Viêm tụy là viêm cấp hoặc mãn tính của tuyến tụy gây đau bụng, nôn mửa. Điều trị bằng nghỉ ngơi, thuốc giảm đau, và điều trị nguyên nhân."
+                      ]
+                    },
+                  
+                    {
+                      "tag": "viem_gan_tu_mien",
+                      "patterns": [
+                        "Viêm gan tự miễn là gì?",
+                        "Triệu chứng viêm gan tự miễn",
+                        "Nguyên nhân viêm gan tự miễn",
+                        "Cách điều trị viêm gan tự miễn",
+                        "Phòng tránh viêm gan tự miễn"
+                      ],
+                      "responses": [
+                        "Viêm gan tự miễn là bệnh hệ miễn dịch tấn công gan, gây viêm và tổn thương. Điều trị bằng thuốc ức chế miễn dịch như corticosteroid."
+                      ]
+                    },
+                    {
+                      "tag": "viem_ruot_thua",
+                      "patterns": [
+                        "Viêm ruột thừa là gì?",
+                        "Triệu chứng viêm ruột thừa",
+                        "Nguyên nhân viêm ruột thừa",
+                        "Cách điều trị viêm ruột thừa",
+                        "Phòng tránh viêm ruột thừa"
+                      ],
+                      "responses": [
+                        "Viêm ruột thừa là viêm nhiễm cấp tính ruột thừa gây đau bụng dưới phải. Điều trị chủ yếu bằng phẫu thuật cắt ruột thừa."
+                      ]
+                    },
+                    {
+                      "tag": "viem_phuc_mac",
+                      "patterns": [
+                        "Viêm phúc mạc là gì?",
+                        "Triệu chứng viêm phúc mạc",
+                        "Nguyên nhân viêm phúc mạc",
+                        "Cách điều trị viêm phúc mạc",
+                        "Phòng tránh viêm phúc mạc"
+                      ],
+                      "responses": [
+                        "Viêm phúc mạc là viêm màng bụng do nhiễm trùng hoặc thủng tạng. Điều trị bằng kháng sinh mạnh và phẫu thuật nếu cần."
+                      ]
+                    },
+                    {
+                      "tag": "benh_di_ung_thuc_pham",
+                      "patterns": [
+                        "Bệnh dị ứng thực phẩm là gì?",
+                        "Triệu chứng dị ứng thực phẩm",
+                        "Nguyên nhân dị ứng thực phẩm",
+                        "Cách điều trị dị ứng thực phẩm",
+                        "Phòng tránh dị ứng thực phẩm"
+                      ],
+                      "responses": [
+                        "Dị ứng thực phẩm là phản ứng miễn dịch bất thường với một số loại thực phẩm. Điều trị bằng tránh thực phẩm gây dị ứng và thuốc chống dị ứng."
+                      ]
+                    },
+                    {
+                      "tag": "benh_sot_xuat_huyet",
+                      "patterns": [
+                        "Sốt xuất huyết là gì?",
+                        "Triệu chứng sốt xuất huyết",
+                        "Nguyên nhân sốt xuất huyết",
+                        "Cách điều trị sốt xuất huyết",
+                        "Phòng tránh sốt xuất huyết"
+                      ],
+                      "responses": [
+                        "Sốt xuất huyết là bệnh truyền nhiễm do virus Dengue gây ra, lây qua muỗi Aedes. Triệu chứng sốt cao, xuất huyết, đau cơ. Điều trị hỗ trợ và phòng tránh muỗi."
+                      ]
+                    },
+                    {
+                      "tag": "sot_ret",
+                      "patterns": [
+                        "Sốt rét là gì?",
+                        "Triệu chứng sốt rét",
+                        "Nguyên nhân sốt rét",
+                        "Cách điều trị sốt rét",
+                        "Phòng tránh sốt rét"
+                      ],
+                      "responses": [
+                        "Sốt rét là bệnh ký sinh trùng do muỗi Anopheles truyền. Triệu chứng sốt cao theo từng cơn, rét run, mệt mỏi. Điều trị bằng thuốc chống ký sinh trùng."
+                      ]
+                    },
+                    {
+                      "tag": "viem_mang_nao",
+                      "patterns": [
+                        "Viêm màng não là gì?",
+                        "Triệu chứng viêm màng não",
+                        "Nguyên nhân viêm màng não",
+                        "Cách điều trị viêm màng não",
+                        "Phòng tránh viêm màng não"
+                      ],
+                      "responses": [
+                        "Viêm màng não là viêm màng bảo vệ não và tủy sống do vi khuẩn hoặc virus. Triệu chứng sốt cao, đau đầu, cứng cổ. Điều trị kháng sinh hoặc thuốc kháng virus."
+                      ]
+                    },
+                    {
+                      "tag": "benh_lao_ngoai_phoi",
+                      "patterns": [
+                        "Bệnh lao ngoài phổi là gì?",
+                        "Triệu chứng lao ngoài phổi",
+                        "Nguyên nhân lao ngoài phổi",
+                        "Cách điều trị lao ngoài phổi",
+                        "Phòng tránh lao ngoài phổi"
+                      ],
+                      "responses": [
+                        "Lao ngoài phổi là bệnh lao ảnh hưởng đến các cơ quan khác ngoài phổi như hạch, màng não. Điều trị bằng thuốc chống lao kéo dài."
+                      ]
+                    },
+                    {
+                      "tag": "benh_giun_san",
+                      "patterns": [
+                        "Bệnh giun sán là gì?",
+                        "Triệu chứng bệnh giun sán",
+                        "Nguyên nhân bệnh giun sán",
+                        "Cách điều trị bệnh giun sán",
+                        "Phòng tránh bệnh giun sán"
+                      ],
+                      "responses": [
+                        "Bệnh giun sán là nhiễm ký sinh trùng giun, sán gây rối loạn tiêu hóa và suy dinh dưỡng. Điều trị bằng thuốc tẩy giun, sán."
+                      ]
+                    },
+                    {
+                      "tag": "viem_da_day_cap",
+                      "patterns": [
+                        "Viêm dạ dày cấp là gì?",
+                        "Triệu chứng viêm dạ dày cấp",
+                        "Nguyên nhân viêm dạ dày cấp",
+                        "Cách điều trị viêm dạ dày cấp",
+                        "Phòng tránh viêm dạ dày cấp"
+                      ],
+                      "responses": [
+                        "Viêm dạ dày cấp là viêm lớp niêm mạc dạ dày do vi khuẩn, thuốc hoặc thức ăn. Triệu chứng đau bụng, buồn nôn. Điều trị bằng thuốc bảo vệ niêm mạc và kháng sinh nếu cần."
+                      ]
+                    },                 
+                    {
+                      "tag": "hoi_chung_ruot_kich_thich",
+                      "patterns": [
+                        "Hội chứng ruột kích thích là gì?",
+                        "Triệu chứng hội chứng ruột kích thích",
+                        "Nguyên nhân hội chứng ruột kích thích",
+                        "Cách điều trị hội chứng ruột kích thích",
+                        "Phòng tránh hội chứng ruột kích thích"
+                      ],
+                      "responses": [
+                        "Hội chứng ruột kích thích là rối loạn chức năng ruột gây đau bụng, đầy hơi, tiêu chảy hoặc táo bón. Điều trị bằng thay đổi chế độ ăn và thuốc giảm triệu chứng."
+                      ]
+                    },
+                    {
+                      "tag": "benh_tieu_duong_thai_ky",
+                      "patterns": [
+                        "Bệnh tiểu đường thai kỳ là gì?",
+                        "Triệu chứng bệnh tiểu đường thai kỳ",
+                        "Nguyên nhân bệnh tiểu đường thai kỳ",
+                        "Cách điều trị bệnh tiểu đường thai kỳ",
+                        "Phòng tránh bệnh tiểu đường thai kỳ"
+                      ],
+                      "responses": [
+                        "Tiểu đường thai kỳ là tình trạng đường huyết cao xuất hiện trong thai kỳ. Điều trị bằng chế độ ăn, tập luyện và thuốc nếu cần."
+                      ]
+                    },
+                    {
+                      "tag": "tang_cholesterol_mau",
+                      "patterns": [
+                        "Tăng cholesterol máu là gì?",
+                        "Triệu chứng tăng cholesterol máu",
+                        "Nguyên nhân tăng cholesterol máu",
+                        "Cách điều trị tăng cholesterol máu",
+                        "Phòng tránh tăng cholesterol máu"
+                      ],
+                      "responses": [
+                        "Tăng cholesterol máu là lượng cholesterol trong máu cao gây nguy cơ tim mạch. Điều trị bằng thay đổi lối sống và thuốc hạ mỡ máu."
+                      ]
+                    },
+                    {
+                      "tag": "benh_ly_tuyen_yen",
+                      "patterns": [
+                        "Bệnh lý tuyến yên là gì?",
+                        "Triệu chứng bệnh lý tuyến yên",
+                        "Nguyên nhân bệnh lý tuyến yên",
+                        "Cách điều trị bệnh lý tuyến yên",
+                        "Phòng tránh bệnh lý tuyến yên"
+                      ],
+                      "responses": [
+                        "Bệnh lý tuyến yên là các rối loạn về nội tiết do tuyến yên gây ra. Điều trị tùy loại bệnh, có thể phẫu thuật hoặc dùng thuốc."
+                      ]
+                    },
+                    {
+                      "tag": "roi_loan_tieu_hoa",
+                      "patterns": [
+                        "Rối loạn tiêu hóa là gì?",
+                        "Triệu chứng rối loạn tiêu hóa",
+                        "Nguyên nhân rối loạn tiêu hóa",
+                        "Cách điều trị rối loạn tiêu hóa",
+                        "Phòng tránh rối loạn tiêu hóa"
+                      ],
+                      "responses": [
+                        "Rối loạn tiêu hóa gây khó tiêu, đau bụng, đầy hơi. Điều trị bằng thay đổi ăn uống, thuốc hỗ trợ tiêu hóa."
+                      ]
+                    },
+                    {
+                      "tag": "viem_gan_do_ruou",
+                      "patterns": [
+                        "Viêm gan do rượu là gì?",
+                        "Triệu chứng viêm gan do rượu",
+                        "Nguyên nhân viêm gan do rượu",
+                        "Cách điều trị viêm gan do rượu",
+                        "Phòng tránh viêm gan do rượu"
+                      ],
+                      "responses": [
+                        "Viêm gan do rượu là tổn thương gan do uống nhiều rượu. Điều trị bằng cai rượu và hỗ trợ chức năng gan."
+                      ]
+                    },
+                    {
+                      "tag": "nhiem_hiv_aids",
+                      "patterns": [
+                        "Nhiễm HIV/AIDS là gì?",
+                        "Triệu chứng HIV/AIDS",
+                        "Nguyên nhân nhiễm HIV/AIDS",
+                        "Cách điều trị HIV/AIDS",
+                        "Phòng tránh HIV/AIDS"
+                      ],
+                      "responses": [
+                        "HIV là virus gây suy giảm miễn dịch, dẫn đến AIDS. Điều trị bằng thuốc kháng retrovirus để kiểm soát bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "benh_lau",
+                      "patterns": [
+                        "Bệnh lậu là gì?",
+                        "Triệu chứng bệnh lậu",
+                        "Nguyên nhân bệnh lậu",
+                        "Cách điều trị bệnh lậu",
+                        "Phòng tránh bệnh lậu"
+                      ],
+                      "responses": [
+                        "Bệnh lậu là bệnh lây truyền qua đường tình dục do vi khuẩn Neisseria gonorrhoeae gây ra. Điều trị bằng kháng sinh."
+                      ]
+                    },
+                    {
+                      "tag": "giang_mai",
+                      "patterns": [
+                        "Bệnh giang mai là gì?",
+                        "Triệu chứng bệnh giang mai",
+                        "Nguyên nhân bệnh giang mai",
+                        "Cách điều trị bệnh giang mai",
+                        "Phòng tránh bệnh giang mai"
+                      ],
+                      "responses": [
+                        "Giang mai là bệnh lây truyền qua đường tình dục do xoắn khuẩn Treponema pallidum. Điều trị bằng kháng sinh penicillin."
+                      ]
+                    },
+                    {
+                      "tag": "viem_am_dao",
+                      "patterns": [
+                        "Viêm âm đạo là gì?",
+                        "Triệu chứng viêm âm đạo",
+                        "Nguyên nhân viêm âm đạo",
+                        "Cách điều trị viêm âm đạo",
+                        "Phòng tránh viêm âm đạo"
+                      ],
+                      "responses": [
+                        "Viêm âm đạo là viêm nhiễm vùng âm đạo do vi khuẩn, nấm hoặc ký sinh trùng. Điều trị bằng thuốc kháng sinh hoặc thuốc chống nấm."
+                      ]
+                    },
+                    {
+                      "tag": "viem_co_tu_cung",
+                      "patterns": [
+                        "Viêm cổ tử cung là gì?",
+                        "Triệu chứng viêm cổ tử cung",
+                        "Nguyên nhân viêm cổ tử cung",
+                        "Cách điều trị viêm cổ tử cung",
+                        "Phòng tránh viêm cổ tử cung"
+                      ],
+                      "responses": [
+                        "Viêm cổ tử cung là viêm nhiễm cổ tử cung do vi khuẩn hoặc virus. Điều trị bằng thuốc kháng sinh."
+                      ]
+                    },
+                    {
+                      "tag": "u_xo_tu_cung",
+                      "patterns": [
+                        "U xơ tử cung là gì?",
+                        "Triệu chứng u xơ tử cung",
+                        "Nguyên nhân u xơ tử cung",
+                        "Cách điều trị u xơ tử cung",
+                        "Phòng tránh u xơ tử cung"
+                      ],
+                      "responses": [
+                        "U xơ tử cung là khối u lành tính trong tử cung, thường không gây triệu chứng. Điều trị theo triệu chứng và kích thước u."
+                      ]
+                    },
+                    {
+                      "tag": "roi_loan_kinh_nguyet",
+                      "patterns": [
+                        "Rối loạn kinh nguyệt là gì?",
+                        "Triệu chứng rối loạn kinh nguyệt",
+                        "Nguyên nhân rối loạn kinh nguyệt",
+                        "Cách điều trị rối loạn kinh nguyệt",
+                        "Phòng tránh rối loạn kinh nguyệt"
+                      ],
+                      "responses": [
+                        "Rối loạn kinh nguyệt là sự bất thường về chu kỳ kinh nguyệt. Điều trị tùy nguyên nhân như nội tiết hoặc bệnh lý."
+                      ]
+                    },
+                    {
+                      "tag": "man_kinh",
+                      "patterns": [
+                        "Mãn kinh là gì?",
+                        "Triệu chứng mãn kinh",
+                        "Nguyên nhân mãn kinh",
+                        "Cách điều trị mãn kinh",
+                        "Phòng tránh mãn kinh"
+                      ],
+                      "responses": [
+                        "Mãn kinh là giai đoạn ngừng kinh nguyệt vĩnh viễn do suy giảm hormon. Điều trị hỗ trợ triệu chứng và chăm sóc sức khỏe."
+                      ]
+                    },
+                    {
+                      "tag": "viem_tuyen_tien_liet",
+                      "patterns": [
+                        "Viêm tuyến tiền liệt là gì?",
+                        "Triệu chứng viêm tuyến tiền liệt",
+                        "Nguyên nhân viêm tuyến tiền liệt",
+                        "Cách điều trị viêm tuyến tiền liệt",
+                        "Phòng tránh viêm tuyến tiền liệt"
+                      ],
+                      "responses": [
+                        "Viêm tuyến tiền liệt là viêm nhiễm tuyến tiền liệt, gây tiểu khó và đau. Điều trị bằng thuốc kháng sinh và giảm đau."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_co_tu_cung",
+                      "patterns": [
+                        "Ung thư cổ tử cung là gì?",
+                        "Triệu chứng ung thư cổ tử cung",
+                        "Nguyên nhân ung thư cổ tử cung",
+                        "Cách điều trị ung thư cổ tử cung",
+                        "Phòng tránh ung thư cổ tử cung"
+                      ],
+                      "responses": [
+                        "Ung thư cổ tử cung là ung thư xuất phát từ tế bào cổ tử cung, do HPV gây ra. Điều trị bằng phẫu thuật, xạ trị hoặc hóa trị."
+                      ]
+                    },
+                    {
+                      "tag": "ung_thu_tuyen_giap",
+                      "patterns": [
+                        "Ung thư tuyến giáp là gì?",
+                        "Triệu chứng ung thư tuyến giáp",
+                        "Nguyên nhân ung thư tuyến giáp",
+                        "Cách điều trị ung thư tuyến giáp",
+                        "Phòng tránh ung thư tuyến giáp"
+                      ],
+                      "responses": [
+                        "Ung thư tuyến giáp là khối u ác tính ở tuyến giáp. Điều trị bằng phẫu thuật và điều trị bổ trợ."
+                      ]
+                    },
+                    {
+                      "tag": "benh_thoat_vi_dia_dem",
+                      "patterns": [
+                        "Bệnh thoát vị đĩa đệm là gì?",
+                        "Triệu chứng thoát vị đĩa đệm",
+                        "Nguyên nhân thoát vị đĩa đệm",
+                        "Cách điều trị thoát vị đĩa đệm",
+                        "Phòng tránh thoát vị đĩa đệm"
+                      ],
+                      "responses": [
+                        "Thoát vị đĩa đệm là tổn thương đĩa đệm cột sống gây đau và hạn chế vận động. Điều trị bảo tồn hoặc phẫu thuật."
+                      ]
+                    },
+                    {
+                      "tag": "dau_than_kinh_toa",
+                      "patterns": [
+                        "Đau thần kinh tọa là gì?",
+                        "Triệu chứng đau thần kinh tọa",
+                        "Nguyên nhân đau thần kinh tọa",
+                        "Cách điều trị đau thần kinh tọa",
+                        "Phòng tránh đau thần kinh tọa"
+                      ],
+                      "responses": [
+                        "Đau thần kinh tọa là đau dọc theo dây thần kinh tọa do chèn ép. Điều trị bằng thuốc giảm đau, vật lý trị liệu."
+                      ]
+                    },                
+                    {
+                      "tag": "benh_lao_khop",
+                      "patterns": [
+                        "Bệnh lao khớp là gì?",
+                        "Triệu chứng bệnh lao khớp",
+                        "Nguyên nhân bệnh lao khớp",
+                        "Cách điều trị bệnh lao khớp",
+                        "Phòng tránh bệnh lao khớp"
+                      ],
+                      "responses": [
+                        "Bệnh lao khớp là tình trạng nhiễm lao ở các khớp xương, gây đau và hạn chế vận động. Điều trị bằng thuốc chống lao lâu dài."
+                      ]
+                    },
+                    {
+                      "tag": "hoi_chung_met_moi_man_tinh",
+                      "patterns": [
+                        "Hội chứng mệt mỏi mãn tính là gì?",
+                        "Triệu chứng hội chứng mệt mỏi mãn tính",
+                        "Nguyên nhân hội chứng mệt mỏi mãn tính",
+                        "Cách điều trị hội chứng mệt mỏi mãn tính",
+                        "Phòng tránh hội chứng mệt mỏi mãn tính"
+                      ],
+                      "responses": [
+                        "Hội chứng mệt mỏi mãn tính là tình trạng mệt mỏi kéo dài không rõ nguyên nhân, ảnh hưởng đến chất lượng cuộc sống. Điều trị hỗ trợ triệu chứng và nghỉ ngơi hợp lý."
+                      ]
+                    },
+                    {
+                      "tag": "viem_duong_ho_hap_tren",
+                      "patterns": [
+                        "Viêm đường hô hấp trên là gì?",
+                        "Triệu chứng viêm đường hô hấp trên",
+                        "Nguyên nhân viêm đường hô hấp trên",
+                        "Cách điều trị viêm đường hô hấp trên",
+                        "Phòng tránh viêm đường hô hấp trên"
+                      ],
+                      "responses": [
+                        "Viêm đường hô hấp trên là viêm nhiễm các cơ quan hô hấp trên như mũi, họng. Điều trị chủ yếu là nghỉ ngơi và dùng thuốc triệu chứng."
+                      ]
+                    },
+                    {
+                      "tag": "viem_da_tep_xuc",
+                      "patterns": [
+                        "Viêm da tiếp xúc là gì?",
+                        "Triệu chứng viêm da tiếp xúc",
+                        "Nguyên nhân viêm da tiếp xúc",
+                        "Cách điều trị viêm da tiếp xúc",
+                        "Phòng tránh viêm da tiếp xúc"
+                      ],
+                      "responses": [
+                        "Viêm da tiếp xúc là phản ứng viêm da do tiếp xúc với chất kích thích hoặc dị ứng. Điều trị bằng thuốc bôi corticosteroid và tránh tiếp xúc."
+                      ]
+                    },
+                    {
+                      "tag": "benh_zona_than_kinh",
+                      "patterns": [
+                        "Bệnh zona thần kinh là gì?",
+                        "Triệu chứng bệnh zona thần kinh",
+                        "Nguyên nhân bệnh zona thần kinh",
+                        "Cách điều trị bệnh zona thần kinh",
+                        "Phòng tránh bệnh zona thần kinh"
+                      ],
+                      "responses": [
+                        "Zona thần kinh là tái hoạt động của virus thủy đậu gây phát ban và đau. Điều trị bằng thuốc kháng virus và giảm đau."
+                      ]
+                    },
+                    {
+                      "tag": "viem_tac_tinh_mach",
+                      "patterns": [
+                        "Viêm tắc tĩnh mạch là gì?",
+                        "Triệu chứng viêm tắc tĩnh mạch",
+                        "Nguyên nhân viêm tắc tĩnh mạch",
+                        "Cách điều trị viêm tắc tĩnh mạch",
+                        "Phòng tránh viêm tắc tĩnh mạch"
+                      ],
+                      "responses": [
+                        "Viêm tắc tĩnh mạch là tình trạng viêm kèm tắc nghẽn tĩnh mạch. Điều trị bằng thuốc chống đông và giảm viêm."
+                      ]
+                    },
+                    {
+                      "tag": "benh_gan_nhiem_mo",
+                      "patterns": [
+                        "Bệnh gan nhiễm mỡ là gì?",
+                        "Triệu chứng bệnh gan nhiễm mỡ",
+                        "Nguyên nhân bệnh gan nhiễm mỡ",
+                        "Cách điều trị bệnh gan nhiễm mỡ",
+                        "Phòng tránh bệnh gan nhiễm mỡ"
+                      ],
+                      "responses": [
+                        "Gan nhiễm mỡ là tình trạng tích tụ mỡ trong gan, gây tổn thương gan. Điều trị bằng thay đổi chế độ ăn và tập luyện."
+                      ]
+                    },
+                    {
+                      "tag": "benh_ly_tim_bam_sinh",
+                      "patterns": [
+                        "Bệnh lý tim bẩm sinh là gì?",
+                        "Triệu chứng bệnh lý tim bẩm sinh",
+                        "Nguyên nhân bệnh lý tim bẩm sinh",
+                        "Cách điều trị bệnh lý tim bẩm sinh",
+                        "Phòng tránh bệnh lý tim bẩm sinh"
+                      ],
+                      "responses": [
+                        "Bệnh lý tim bẩm sinh là dị tật tim từ khi sinh ra. Điều trị có thể bằng thuốc hoặc phẫu thuật tùy từng trường hợp."
+                      ]
+                    },
+                    {
+                      "tag": "suy_tim",
+                      "patterns": [
+                        "Suy tim là gì?",
+                        "Triệu chứng suy tim",
+                        "Nguyên nhân suy tim",
+                        "Cách điều trị suy tim",
+                        "Phòng tránh suy tim"
+                      ],
+                      "responses": [
+                        "Suy tim là tình trạng tim không bơm máu đủ nhu cầu cơ thể. Điều trị bằng thuốc, thay đổi lối sống và can thiệp y tế."
+                      ]
+                    },
+                    {
+                      "tag": "viem_noi_tam_mac",
+                      "patterns": [
+                        "Viêm nội tâm mạc là gì?",
+                        "Triệu chứng viêm nội tâm mạc",
+                        "Nguyên nhân viêm nội tâm mạc",
+                        "Cách điều trị viêm nội tâm mạc",
+                        "Phòng tránh viêm nội tâm mạc"
+                      ],
+                      "responses": [
+                        "Viêm nội tâm mạc là viêm lớp lót bên trong tim do nhiễm trùng. Điều trị bằng kháng sinh kéo dài."
+                      ]
+                    },
+                    {
+                      "tag": "hoi_chung_than_hu_o_tre_em",
+                      "patterns": [
+                        "Hội chứng thận hư ở trẻ em là gì?",
+                        "Triệu chứng hội chứng thận hư ở trẻ em",
+                        "Nguyên nhân hội chứng thận hư ở trẻ em",
+                        "Cách điều trị hội chứng thận hư ở trẻ em",
+                        "Phòng tránh hội chứng thận hư ở trẻ em"
+                      ],
+                      "responses": [
+                        "Hội chứng thận hư ở trẻ em là tình trạng mất protein qua nước tiểu do tổn thương thận. Điều trị bằng corticosteroid và thuốc hỗ trợ."
+                      ]
+                    },
+                    {
+                      "tag": "viem_phe_quan_man_tinh",
+                      "patterns": [
+                        "Viêm phế quản mãn tính là gì?",
+                        "Triệu chứng viêm phế quản mãn tính",
+                        "Nguyên nhân viêm phế quản mãn tính",
+                        "Cách điều trị viêm phế quản mãn tính",
+                        "Phòng tránh viêm phế quản mãn tính"
+                      ],
+                      "responses": [
+                        "Viêm phế quản mãn tính là viêm nhiễm kéo dài niêm mạc phế quản, gây ho và khó thở. Điều trị bằng thuốc giãn phế quản và tránh tác nhân gây bệnh."
+                      ]
+                    },
+                    {
+                      "tag": "benh_ung_thu_dai_truc_trang",
+                      "patterns": [
+                        "Bệnh ung thư đại trực tràng là gì?",
+                        "Triệu chứng ung thư đại trực tràng",
+                        "Nguyên nhân ung thư đại trực tràng",
+                        "Cách điều trị ung thư đại trực tràng",
+                        "Phòng tránh ung thư đại trực tràng"
+                      ],
+                      "responses": [
+                        "Ung thư đại trực tràng là khối u ác tính ở ruột già hoặc trực tràng. Điều trị bằng phẫu thuật, hóa trị hoặc xạ trị."
+                      ]
+                    },
+                    {
+                      "tag": "benh_da_xo_cung",
+                      "patterns": [
+                        "Bệnh đa xơ cứng (MS) là gì?",
+                        "Triệu chứng bệnh đa xơ cứng",
+                        "Nguyên nhân bệnh đa xơ cứng",
+                        "Cách điều trị bệnh đa xơ cứng",
+                        "Phòng tránh bệnh đa xơ cứng"
+                      ],
+                      "responses": [
+                        "Đa xơ cứng là bệnh tự miễn tấn công hệ thần kinh trung ương, gây rối loạn vận động. Điều trị bằng thuốc điều hòa miễn dịch."
+                      ]
+                    },
+                    {
+                      "tag": "benh_xo_nang",
+                      "patterns": [
+                        "Bệnh xơ nang là gì?",
+                        "Triệu chứng bệnh xơ nang",
+                        "Nguyên nhân bệnh xơ nang",
+                        "Cách điều trị bệnh xơ nang",
+                        "Phòng tránh bệnh xơ nang"
+                      ],
+                      "responses": [
+                        "Xơ nang là bệnh di truyền gây rối loạn bài tiết dịch trong cơ thể, ảnh hưởng phổi và tiêu hóa. Điều trị bằng chăm sóc và thuốc hỗ trợ."
+                      ]
+                    },
+                    {
+                      "tag": "hoi_chung_cushing",
+                      "patterns": [
+                        "Hội chứng Cushing là gì?",
+                        "Triệu chứng hội chứng Cushing",
+                        "Nguyên nhân hội chứng Cushing",
+                        "Cách điều trị hội chứng Cushing",
+                        "Phòng tránh hội chứng Cushing"
+                      ],
+                      "responses": [
+                        "Hội chứng Cushing là tình trạng thừa cortisol trong cơ thể gây nhiều biểu hiện rối loạn. Điều trị bằng phẫu thuật hoặc thuốc."
+                      ]
+                    },
+                    {
+                      "tag": "benh_thieu_mau",
+                      "patterns": [
+                        "Bệnh thiếu máu là gì?",
+                        "Triệu chứng bệnh thiếu máu",
+                        "Nguyên nhân bệnh thiếu máu",
+                        "Cách điều trị bệnh thiếu máu",
+                        "Phòng tránh bệnh thiếu máu"
+                      ],
+                      "responses": [
+                        "Thiếu máu là giảm số lượng hồng cầu hoặc hemoglobin gây mệt mỏi, hoa mắt. Điều trị bằng bổ sung sắt và chế độ dinh dưỡng."
+                      ]
+                    },
+                    {
+                      "tag": "hoi_chung_ong_co_tay",
+                      "patterns": [
+                        "Hội chứng ống cổ tay là gì?",
+                        "Triệu chứng hội chứng ống cổ tay",
+                        "Nguyên nhân hội chứng ống cổ tay",
+                        "Cách điều trị hội chứng ống cổ tay",
+                        "Phòng tránh hội chứng ống cổ tay"
+                      ],
+                      "responses": [
+                        "Hội chứng ống cổ tay là chèn ép dây thần kinh giữa ở cổ tay gây tê và đau. Điều trị bằng nghỉ ngơi, nẹp cổ tay hoặc phẫu thuật."
+                      ]
+                    },
+                    {
+                      "tag": "viem_ruot_crohn",
+                      "patterns": [
+                        "Viêm ruột Crohn là gì?",
+                        "Triệu chứng viêm ruột Crohn",
+                        "Nguyên nhân viêm ruột Crohn",
+                        "Cách điều trị viêm ruột Crohn",
+                        "Phòng tránh viêm ruột Crohn"
+                      ],
+                      "responses": [
+                        "Viêm ruột Crohn là bệnh viêm đường ruột mạn tính gây đau bụng, tiêu chảy. Điều trị bằng thuốc chống viêm và hỗ trợ dinh dưỡng."
+                      ]
+                    },
+                    {
+                      "tag": "benh_thoai_hoa_than_kinh",
+                      "patterns": [
+                        "Bệnh thoái hóa thần kinh là gì?",
+                        "Triệu chứng bệnh thoái hóa thần kinh",
+                        "Nguyên nhân bệnh thoái hóa thần kinh",
+                        "Cách điều trị bệnh thoái hóa thần kinh",
+                        "Phòng tránh bệnh thoái hóa thần kinh"
+                      ],
+                      "responses": [
+                        "Thoái hóa thần kinh là sự suy giảm chức năng tế bào thần kinh theo tuổi tác hoặc bệnh lý. Điều trị hỗ trợ triệu chứng."
+                      ]
+                    },
+                    {
+                      "tag": "test",
+                      "patterns": [
+                        "cách để quên đi một người"
+                      ],
+                      "responses": [
+                        "Quên thế đéo nào được mà lại đi hỏi tao!!! "
+                      ]
+                    }
+              ]
+}
